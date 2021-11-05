@@ -1,0 +1,21 @@
+
+main h1, p {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+#main p {
+    text-align:left;
+}
+
+#skills {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .1fr .1fr 1fr;
+
+}
+
+#skills li {
+    margin: 10px 0;
+}
+

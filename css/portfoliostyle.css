@@ -1,0 +1,71 @@
+
+/* Main */
+
+
+#main h1, p {
+    text-align:center;
+}
+
+.homepage-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .5fr 1fr 1fr 1fr;
+    row-gap: 1%;
+    width:100%;
+}
+
+header {
+    grid-row: 1 / span 1;
+    text-align:center;
+    align-items:center;
+    padding-bottom: 2px;
+}
+
+.jameskirk {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row: 2 / span 1;
+    width:100%;
+}
+
+.jameskirk-image{
+    grid-row: 1/-1;
+    width:100%;
+    align-items:center;
+}
+
+.jameskirk-text{
+    position:absolute;
+    grid-row: 2/ span 1;
+    width:100%;
+    text-align:center;
+    align-items:center;
+    background-color: rgba(255,255,255, 0.6);
+}
+
+.mycrew {
+    grid-row: 3 / span 1;
+    width:100%;
+}
+
+.mycrew-text{
+    position:absolute;
+    grid-row: 3 / span 1;
+    width:100%;
+    text-align:center;
+    background-color: rgba(255,255,255, 0.6);
+}
+
+.ourship {
+    display: grid;
+    grid-row: 4 / span 1;
+    width:100%;
+}
+
+.ourship-text{
+    position:absolute;
+    grid-row: 4 / span 1;
+    width:100%;
+    text-align:center;
+    background-color: rgba(255,255,255, 0.6);
+}
